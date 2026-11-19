@@ -9,7 +9,7 @@ codigoUPN = input("Ingrese su codigo UPN: N00")
 
 while len(codigoUPN) != 6 or not codigoUPN.isdigit():
     print("Error: debe ingresar exactamente 6 digitos.")
-    codigoUPN = input("Ingrese nuevamente: ")
+    codigoUPN = input("Ingrese nuevamente: N00")
 
 codigoUPN = "N00" + codigoUPN
 
